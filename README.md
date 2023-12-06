@@ -23,7 +23,7 @@ The project is structured into several high-level modules:
 - `DPattentionGAN_Synthesiser`: A generative adversarial network with differential privacy and attention mechanisms to generate synthetic tabular data.
 - `DPattentionVAE_Synthesiser`: A variational autoencoder that incorporates differential privacy and attention mechanisms for data synthesis.
 - `DPautoGAN_Synthesiser`: An automatic generative adversarial network that ensures differential privacy in the data generation process.
-- `TabDM_Synthesiser`: A synthesizer model that uses tabular diffusion models for data generation while maintaining privacy.
+- `TableDiffusion_Synthesiser`: A synthesizer model that uses tabular diffusion models for data generation while maintaining privacy.
 - `WGAN_Synthesiser`: A Wasserstein GAN that provides a stable training process for generating synthetic data with privacy considerations.
 - `CTGAN_Synthesiser`: A conditional GAN tailored for generating synthetic tabular data that respects the privacy constraints.
 - `PATEGAN_Synthesiser`: A GAN model that incorporates the Private Aggregation of Teacher Ensembles (PATE) framework to ensure differential privacy.
