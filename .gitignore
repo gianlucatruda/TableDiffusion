@@ -1,0 +1,61 @@
+# Config files
+.python-version
+.code
+.cursor
+
+# Environment variables file
+.env
+
+# Experiment runs
+runs/
+mlruns/
+
+# Compressed directories
+*.zip
+*.gz
+*.tar
+
+# Profiling reports
+*.lprof
+# Coverage reports
+.coverage
+
+# File for fiddling with code
+fiddling.*
+
+# Mypy caches
+.mypy_cache
+
+# VS Code settings
+.vscode
+
+# Pipfiles
+Pipfile*
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Compiled Python files
+*.pyc
+
+# ipython checkpoints
+.ipynb_checkpoints
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Log files
+*.log
+
+.buildt

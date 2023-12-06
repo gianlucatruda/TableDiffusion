@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "TableDiffusion"
+version = "1.0"
+description = "Differentially-private generative models for sensitive tabular data."
+authors = ["Gianluca Truda <gianlucatruda@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tablediffusion"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+opacus = "1.4.0"
+ctgan = "0.7.2"
+torch = ">=1.10.0,<2.0"
+mlflow = "^2.3.2"
+pandas = "<2.0"
+astropy = "^5.3"
+matplotlib = "^3.7.1"
+pillow = "^9.5.0"
+cycler = "^0.11.0"
+kiwisolver = "^1.4.4"
+pyemd = "^1.0.0"
+tqdm = "^4.65.0"
+sweetviz = "^2.1.4"
+optuna = "^3.1.1"
+einops = "^0.6.1"
+seaborn = "^0.12.2"
+mpl-scatter-density = "^0.7"
+prettytable = "^3.7.0"
+python-dotenv = "^1.0.0"
+jupyterlab = "^4.0.0"
+ipython-autotime = "^0.3.1"
+plotly = "^5.14.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+isort = "*"
+mypy = "*"
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
