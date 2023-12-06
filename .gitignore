@@ -2,6 +2,7 @@
 .python-version
 .code
 .cursor
+.buildt
 
 # Environment variables file
 .env
@@ -57,5 +58,3 @@ Thumbs.db
 
 # Log files
 *.log
-
-.buildt
