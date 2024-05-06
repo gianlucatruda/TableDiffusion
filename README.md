@@ -1,6 +1,11 @@
 # TableDiffusion
+[![arxivbadge](https://img.shields.io/badge/arXiv-2308.14784-green)](https://arxiv.org/abs/2308.14784)
+[![githubbadge](https://img.shields.io/badge/Github-TableDiffusion-black)](https://github.com/gianlucatruda/TableDiffusion)
+[![blogbadge](https://img.shields.io/badge/gianluca.ai-projects-blue)](https://gianluca.ai/table-diffusion)
 
 This is the supporting code for the paper [Generating tabular datasets under differential privacy](https://arxiv.org/abs/2308.14784).
+
+Please check out a quick overview on [my blog](http://gianluca.ai/table-diffusion).
 
 TableDiffusion is a project focused on providing differentially-private generative models for sensitive tabular data. The goal is to enable the synthesis of data that maintains the statistical properties of the original dataset while ensuring the privacy of individuals' information.
 
